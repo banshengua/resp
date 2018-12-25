@@ -1,0 +1,78 @@
+body{margin:0;padding:0;}
+			.contain{margin:0 auto; width:1100px;}/*宽 自动居中*/
+			.head{width:1100px;}/*总宽度*/
+			ul{list-style:none;height:50px;background:#f8f8f8;margin-top:-3px;}/*导航菜单*/
+			li{float:left;margin-left:100px;}/*左浮动*/
+		 a{text-decoration:none;color:#222;font-family:arial;display:block;line-height:40px;height:50px;}/*导航样式*/
+			li a:hover{background:#fff;color:#9fcced;}
+			.body{width:1100px;margin-top:-16px;}
+			.leftbody{width:1100px;background:#EEE8AA;position:relative;}/*下面页面内容*/
+			.leftbig{margin-left:100px;margin-right:100px;}
+			.img1{border-radius:20px;border:2px solid #838B8B;margin-bottom:20px;margin-left:50px;}/*大图片*/
+			.img2{border-radius:50%;border:1px solid #f7eedf;float:left;margin-right:10px;}/*徽章图片*/
+			.duan1{border-bottom:2px solid #912CEE;}/*段落样式*/
+			.duan2{border-bottom:2px solid #912CEE;}
+			.duan1 p{line-height:30px;}
+			.duan2 p{line-height:30px;}
+			.duan3 p{line-height:30px;}
+			.text{font-size:25px;font-weight: bold;color:#707070;line-height:80px;}/*标题*/
+			button{width:70px;height:40px;background:#764DB3;cursor:pointer;margin-bottom:20px;}/*了解更多*/
+			button a{color:#fff;}
+			.img1p1{position:absolute;top:100px;left:10px;cursor: pointer;z-index:10;}/*重师图片左定位*/
+			.img1p1 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;margin-left:25px;}/*重师图片文字下方左定位*/
+			.img1p1 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img2p1{position:absolute;top:200px;left:10px;cursor: pointer;z-index:9;}/*左图片伪类*/
+		.img2p1 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;margin-left:25px;}
+		.img2p1 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img3p1{position:absolute;top:300px;left:10px;cursor: pointer;z-index:8;}
+		.img3p1 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;margin-left:25px;}
+		.img3p1 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img4p1{position:absolute;top:300px;right:10px;cursor: pointer;z-index:8;}/*重师图片右定位*/
+		.img4p1 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;padding-left:20px;}/*重师图片文字下方右定位*/
+		.img4p1 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}/*右图片伪类*/
+		.img5p1{position:absolute;top:200px;right:10px;cursor: pointer;z-index:8;}
+		.img5p1 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;padding-left:20px;}
+		.img5p1 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img6p1{position:absolute;top:100px;right:10px;cursor: pointer;z-index:10;}
+		.img6p1 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;padding-right:10px;}
+		.img6p1 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img1p3{position:absolute;bottom:450px;left:10px;cursor: pointer;z-index:8;}/*母校图片左定位*/
+			.img1p3 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;margin-left:25px;}/*母校图片左下方文字*/
+			.img1p3 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}/*母校左图片伪类*/
+		.img2p3{position:absolute;bottom:350px;left:10px;cursor: pointer;z-index:9;}
+		.img2p3 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;margin-left:25px;}
+		.img2p3 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img3p3{position:absolute;bottom:250px;left:10px;cursor: pointer;z-index:10;}
+		.img3p3 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;margin-left:25px;}
+		.img3p3 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img4p3{position:absolute;bottom:450px;right:10px;cursor: pointer;z-index:7;}/*母校图片右定位*/
+		.img4p3 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;padding-left:20px;}/*母校图片右下方文字*/
+		.img4p3 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}/*母校右图片伪类*/
+		.img5p3{position:absolute;bottom:350px;right:10px;cursor: pointer;z-index:8;}
+		.img5p3 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;padding-left:20px;}
+		.img5p3 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img6p3{position:absolute;bottom:250px;right:10px;cursor: pointer;z-index:10;}
+		.img6p3 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;padding-left:3px;}
+		.img6p3 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img1p2{position:absolute;bottom:1150px;left:10px;cursor: pointer;z-index:8;}/*计算机院图片左定位*/
+			.img1p2 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;margin-left:25px;}/*左图片下方文字*/
+			.img1p2 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}/*左图片伪类*/
+		.img2p2{position:absolute;bottom:1050px;left:10px;cursor: pointer;z-index:9;}
+		.img2p2 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;margin-left:25px;}
+		.img2p2 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img3p2{position:absolute;bottom:950px;left:10px;cursor: pointer;z-index:10;}
+		.img3p2 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;margin-left:25px;}
+		.img3p2 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img4p2{position:absolute;bottom:1150px;right:10px;cursor: pointer;z-index:7;}/*计算机院图片右定位*/
+		.img4p2 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;padding-left:20px;}/*右图片下方文字*/
+		.img4p2 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}/*右图片伪类*/
+		.img5p2{position:absolute;bottom:1050px;right:10px;cursor: pointer;z-index:8;}
+		.img5p2 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;padding-left:20px;}
+		.img5p2 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		.img6p2{position:absolute;bottom:950px;right:10px;cursor: pointer;z-index:10;}
+		.img6p2 p{font-size:14px;font-weight: bold;color:#1C86EE;margin-top:-2px;padding-left:3px;}
+		.img6p2 img:hover{width:500px;height:250px;border-radius:10px;box-shadow:0 0 10px #ccc;border:1px solid #ccc;}
+		
+		.foot{width:1100px;height:50px;background:#4848A7;margin-top:-15px;}/*顶部按钮样式*/
+		.foot a{color:#fff;width:80px;margin-left:47%;}
+		.foot a:hover{background:#FFF68F;color:red;}

@@ -1,0 +1,27 @@
+ body{padding:0;margin:0;margin:0 auto;}/*页面自动居中*/
+  .row{margin-bottom:50px;}/*栅格到下一行的距离为50px*/
+  	.navbar-brand{position:relative;top:-16px;}/*导航头像*/
+  	.navbar-nav{margin-right:100px;float:right;font-family:arial;}/*导航样式*/
+  	.navbar-nav li:hover{background:darkgray;}/*导航的伪类*/
+ 		#carousel-example-generic{margin-top:50px;}/*图片轮播插件的设置*/
+ 		.hehe{height:450px;border-bottom:1px solid #ccc;background:#fffcf5;margin-left:10px;}/*图片轮播右边的板块的样式*/
+ 		.hehe p{font-size:14px;}
+ 		.body1{background:#000;}/*介绍自己喜欢事物的背景*/
+ 		.thumbnail{height:330px;}/*单个喜欢食物*/
+ 		.img-circle{width:150px;height:150px;}/*喜欢事物的图片*/
+ 		img{width:100%;}
+ 		.thumbnail{border:0;width:250px;background:#000;float:left;}/*单个喜欢事物的背景*/
+ 		.thumbnail:hover{background:#fff;}
+ 		.caption h3{text-align:center;font-size:30px;}/*喜欢事物标题*/
+ 		.caption p{font-size:15px;color:#000;}/*喜欢事物描述*/
+ 		.wenzi{color:#000;}/*喜欢事物标题*/
+ 		.img1{width:150px;height:150px;margin-left:50px;margin-top:50px;}/*网页底部二维码*/
+ 		.lastimg{width:300px;height:250px;margin-left:50px;}/*选项卡切换第一面图片*/
+ 		.lastimg1{width:420px;height:250px;}/*选项卡切换第二面图片*/
+ 		.lastp{width:300px;font-size:20px;margin-left:50px;background:#FFfcf5;}/*选项卡切换第一面文字*/
+ 		.lastp1{width:300px;font-size:20px;color:#8A2BE2;}/*选项卡切换第二面文字*/
+ 		.lastp2{width:400px;background:#8EE5EE;}/*选项卡切换第三面*/
+ 		.foot{height:400px;margin-bottom:0px;background:#111;}/*网页底部*/
+ 		.text2{font-size:16px;color:#fafafa;padding-top:50px;padding-left:100px;line-height:25px;}
+ 		.img2{width:150px;height:200px;}
+ 	

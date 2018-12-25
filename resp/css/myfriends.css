@@ -1,0 +1,39 @@
+	body{margin:0;padding:0;}
+			.content{margin:0 auto; width:1100px;}/*宽*/
+			.head{width:1100px;}
+			ul{list-style:none;height:50px;background:#f8f8f8;margin-top:-3px;}/*导航样式*/
+			li{float:left;margin-left:100px;}
+		 a{text-decoration:none;color:#222;font-family:arial;display:block;line-height:40px;height:50px;}
+			a:hover{background:#fff;color:#9fcced;}/*导航伪类*/
+			.body{width:1100px;position:relative;margin-top:-100px;}/*总宽*/
+			.leftbody{width:250px;background:#FAFAD2;height:1050px;}/*左部分*/
+			.rightbody{width:850px;float:right;position:relative;height:750px;background:#FCFCFC;}/*右部分*/
+			.img1{border:1px solid #ccc;padding:10px;width:200px;box-shadow: 0 0 20px #F0E68C;float:right;margin-right:50px;margin-top:30px;cursor: pointer;background:#fff;margin-bottom:20px;}/*右部分图片和样式*/
+			.piv{width:200px;height:auto;border:1px solid #ccc;}/*右边图片*/
+			#p3{width:200px;position:absolute;z-index:11;left:46px;top:140px;opacity:0.7;background:#fff;display:none;font-size:14px;line-height:20px;}/*右边前三张图片的文字*/
+			#p2{width:200px;position:absolute;z-index:11;left:318px;top:140px;opacity:0.7;background:#fff;font-size:14px;display:none;line-height:20px;}
+			#p1{width:200px;position:absolute;z-index:11;right:60px;top:155px;opacity:0.7;background:#fff;font-size:14px;display:none;line-height:20px;}
+			.piv1{width:200px;height:200px;border-radius:50%;}/*右边图片圆*/
+			.pic1{border:1px solid #ccc;padding:10px;width:200px;height:200px;box-shadow: 0 5px 20px #F0E68C;float:left;border-radius:50%;margin-left:10px;margin-top:35px;margin-bottom:100px;background:#FFFAFA;}
+			/*左边图片*/.p4{width:200px;background:#fff;opacity:0.7;position:absolute;right:60px;top:520px;display:none;line-height:20px;}/*右边后三张图片*/
+			.p5{width:200px;background:#fff;opacity:0.7;position:absolute;right:332px;top:500px;display:none;line-height:20px;}
+			.p6{width:200px;background:#fff;opacity:0.7;position:absolute;left:45px;top:520px;display:none;line-height:20px;}
+		.p7{font-size:14px;line-height:18px;}/*左边文字*/
+		.im{margin-bottom:100px;}
+		.pic1:hover{background:url("../image/a12.jpg");}/*左边图片伪类*/
+		#hehe{width:849px;border:1px solid #ccc;height:680px;}/*边框线*/
+		.conmenu{width:849px;border:1px solid #ccc;clear:right;height:360px;margin-top:5px;}/*选项卡*/
+		 .text{width:848px;height:305px;border:1px solid #ccc;overflow: hidden;display:none;}/*选项卡各个块*/
+		 .text:first-child{display:block;}
+		.menu tr td a{margin-top:-3px;width:200px;cursor:pointer;font-weight:bold;}/*选项卡标题*/
+		td{text-align:center;}
+		.lastimg{float:left;margin-left:100px;margin-right:20px;margin-bottom:5px;}/*选项卡第一面图片*/
+		.lastimg1{float:left;margin-left:150px;margin-right:25px;margin-top:25px;}/*选项卡第二面图片*/
+		.lastp{margin-left:100px;margin-right:100px;font-size:15px;color:#3B3B3B;line-height:25px;}/*选项卡第一面文字*/
+		.lastp1{margin-right:100px;width:300px;float:right;margin-top:25px;font-size:15px;line-height:25px;}/*选项卡第二面图片*/
+		.lastimg3{float:left;margin:20px 10px 10px 20px;}/*第三面图片*/
+		.endp{font-size:14px;line-height:25px;}/*第三面文字*/
+		.lastimg4{float:right;margin-top:-20px;}/*第三面图片*/
+		.on{border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #fcfcfc;background:#fff;}/*显示属性*/
+		.foot{width:1100px;height:100px;background:#BBFFFF;}/*底部*/
+		.footp{font-size:20px;padding-top:50px;padding-left:300px;}
